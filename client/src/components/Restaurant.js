@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import PizzaForm from "./PizzaForm";
 
-function Home() {
+function Restaurant() {
   const [{ data: restaurant, error, status }, setRestaurant] = useState({
     data: null,
     error: null,
@@ -69,4 +69,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Restaurant;

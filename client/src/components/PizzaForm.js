@@ -53,7 +53,7 @@ function PizzaForm({ restaurantId, onAddPizza }) {
           </option>
         ))}
       </select>
-      <label htmlFor="pizza_id">Price:</label>
+      <label htmlFor="price">Price:</label>
       <input
         id="price"
         name="price"
